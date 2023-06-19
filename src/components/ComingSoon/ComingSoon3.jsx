@@ -56,7 +56,7 @@ return(
       <div className='text'>We are currently building this site and will be up and running 31 July 2023! Until then, you can get in touch by clicking the button below.</div>
        
       <div className='buttonWrapper'>
-            <a className='button__mail' href='mailto:danica.bez@live.com' target='_blank'>GET IN TOUCH</a>
+            <a className='button__mail' href='mailto:gerhard.wilson@gmail.com' target='_blank'>GET IN TOUCH</a>
       </div>
       <div className='countdown'>
         <div className='box'>
