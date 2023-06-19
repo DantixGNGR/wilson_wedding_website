@@ -4,7 +4,6 @@ import './comingSoon3.css'
 const ComingSoon3 = () => {
 
   let endTime = new Date("March 9, 2024 12:00:00").getTime();
-  // var divtags=window.document.getElementsByTagName("div")
     function countdown() {
       let todayDate = new Date();
       let todayTime = todayDate.getTime();
@@ -42,12 +41,7 @@ const ComingSoon3 = () => {
     let i = setInterval(countdown, 1000);
     window.onload = function () {countdown();};
 
-// TODO add save the date page to button
-//  const [location, setLocation] = useState<string>(false);
 
-// const saveTheDateButton = () => {
-//   window.open(<SaveTheDate />);
-// }
 
 return(
 
@@ -63,7 +57,6 @@ return(
        
       <div className='buttonWrapper'>
             <a className='button__mail' href='mailto:danica.bez@live.com' target='_blank'>GET IN TOUCH</a>
-            {/* <a className='button__std' href='' onClick={saveTheDateButton()} target='_blank'>SAVE THE DATE</a> */}
       </div>
       <div className='countdown'>
         <div className='box'>
